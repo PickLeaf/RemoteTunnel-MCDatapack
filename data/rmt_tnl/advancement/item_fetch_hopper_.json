@@ -1,0 +1,23 @@
+{
+  "parent": "rmt_tnl:item_fetch_hopper",
+  "display": {
+    "title": {
+      "translate": "rmt_tnl.advancement.item_fetch_hopper_.title",
+      "fallback": "Item Fetch Hopper's Description"
+    },
+    "description": {
+      "translate": "rmt_tnl.advancement.item_fetch_hopper_.description",
+      "fallback": "Pull Items from the Decorated Pot on top of the Chunk Loader bound to the Lodestone Compass into the Decorated Pot below the machine. If the chunk containing the bound Chunk Loader is not loaded, it will be force to loaded automatically, but the force loading will not be removed automatically."
+    },
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

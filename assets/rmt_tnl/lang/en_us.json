@@ -1,0 +1,20 @@
+{
+    "rmt_tnl.mod_name": "Remote Tunnel",
+    "rmt_tnl.link": "[Link]",
+    "rmt_tnl.load_wrong_version": "(Be loaded to WRONG version!)",
+    "rmt_tnl.load_resourcepack": "",
+    "rmt_tnl.advancement.root.title": "Remote Tunnel",
+    "rmt_tnl.advancement.root.description": "Put the required items into the Shulker Box, then place the Shulker Box in the world to install the machine. Make sure to leave enough space. Sneaking can block installation. All machines requires a redstone signal to power the central block (the block at the exact center of a multiblock structure) in order to work.",
+    "rmt_tnl.advancement.chunk_loader.title": "Chunk Loader",
+    "rmt_tnl.advancement.chunk_loader.description": "Request: 12*Mud, 4*Muddy_Mangrove_Roots, 8*Block_Of_Gold, 1*Redstone_Lamp, 1*Lodstone",
+    "rmt_tnl.advancement.chunk_loader_.title": "Description of Chunk Loader",
+    "rmt_tnl.advancement.chunk_loader_.description": "When the top Redstone Lamp is lit, the chunk conatining the central block will be force to loaded (via the /forceload command); otherwise, it will be unloaded. Comparator can detect the central block, providing a signal when the chunk is force-loaded, and no signal when it is not.",
+    "rmt_tnl.advancement.item_fetch_hopper.title": "Item Fetch Hopper ",
+    "rmt_tnl.advancement.item_fetch_hopper.description": "Request: 8*Amethyst_Block, 4*Crying_Obsidian, 3*Decorated_Pot, 4*Mangrove_Trapdoor, 1*Pearlescent_Froglight, 1*Lodestone_Compass(bounding to the bottom of the Chunk Loader)",
+    "rmt_tnl.advancement.item_fetch_hopper_.title": "Description of Item Fetch Hopper ",
+    "rmt_tnl.advancement.item_fetch_hopper_.description": "Pull Items from the Decorated Pot on top of the Chunk Loader bound to the Lodestone Compass into the Decorated Pot below the machine. If the chunk containing the bound Chunk Loader is not loaded, it will be force to loaded automatically, but the force loading will not be removed automatically.",
+    "rmt_tnl.advancement.item_push_dropper.title": "Item Push Dropper",
+    "rmt_tnl.advancement.item_push_dropper.description": "Request: 12*Smooth_Stone, 4*Smooth_Stone_Slab, 1*Decorated_Pot, 1*Dropper, 1*Ochre_Froglight, 1*Lodestone_Compass(bounding to the bottom of the Chunk Loader)",
+    "rmt_tnl.advancement.item_push_dropper_.title": "Description of Item Push Dropper",
+    "rmt_tnl.advancement.item_push_dropper_.description": "Opposite to Item Fetch Hopper, push the Items in the Dropper into the Decorated Pot at the bottom of the Chunk Loader."
+}

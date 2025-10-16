@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "display": {
+    "title": "",
+    "description": "",
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "check": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#rmt_tnl:machine",
+                "nbt": "{Items:[{id:'minecraft:amethyst_block',count:8},{id:'minecraft:crying_obsidian',count:4},{id:'minecraft:pearlescent_froglight',count:1},{id:'minecraft:decorated_pot',count:3},{id:'minecraft:mangrove_trapdoor',count:4},{id:'minecraft:compass',count:1,components:{'minecraft:lodestone_tracker':{}}}]}"
+              }
+            }
+          }
+        ],
+        "player": {
+          "flags": {
+            "is_sneaking": false
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "check"
+    ]
+  ],
+  "rewards": {
+    "function": "rmt_tnl:item_fetch_hopper/invoke"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/amethyst_block.png",
+    "title": {
+      "translate": "rmt_tnl.advancement.root.title",
+      "fallback": "Remote Tunnel"
+    },
+    "description": {
+      "translate": "rmt_tnl.advancement.root.description",
+      "fallback": "Put the required items into the Shulker Box, then place the Shulker Box in the world to install the machine. Make sure to leave enough space. Sneaking can block installation. All machines requires a redstone signal to power the central block (the block at the exact center of a multiblock structure) in order to work."
+    },
+    "icon": {
+      "id": "minecraft:amethyst_block"
+    },
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

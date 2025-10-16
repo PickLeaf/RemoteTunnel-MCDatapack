@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "display": {
+    "title": "",
+    "description": "",
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "check": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#rmt_tnl:machine",
+                "nbt": "{Items:[{id:'minecraft:smooth_stone',count:12},{id:'minecraft:smooth_stone_slab',count:4},{id:'minecraft:ochre_froglight',count:1},{id:'minecraft:decorated_pot',count:1},{id:'minecraft:dropper',count:1},{id:'minecraft:compass',count:1,components:{'minecraft:lodestone_tracker':{}}}]}"
+              }
+            }
+          }
+        ],
+        "player": {
+          "flags": {
+            "is_sneaking": false
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "check"
+    ]
+  ],
+  "rewards": {
+    "function": "rmt_tnl:item_push_dropper/invoke"
+  }
+}

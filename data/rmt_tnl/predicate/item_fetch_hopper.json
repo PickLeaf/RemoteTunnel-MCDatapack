@@ -1,0 +1,183 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:decorated_pot"
+                }
+            },
+            "offsetY": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:pearlescent_froglight"
+                }
+            },
+            "offsetY": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:amethyst_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:amethyst_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:amethyst_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:amethyst_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:crying_obsidian"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:crying_obsidian"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:crying_obsidian"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:crying_obsidian"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:amethyst_block"
+                }
+            },
+            "offsetX": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:amethyst_block"
+                }
+            },
+            "offsetX": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:amethyst_block"
+                }
+            },
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:amethyst_block"
+                }
+            },
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mangrove_trapdoor"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mangrove_trapdoor"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mangrove_trapdoor"
+                }
+            },
+            "offsetY": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mangrove_trapdoor"
+                }
+            },
+            "offsetY": -1,
+            "offsetZ": -1
+        }
+    ]
+}

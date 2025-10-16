@@ -1,0 +1,267 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:lodestone"
+                }
+            },
+            "offsetY": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:redstone_lamp"
+                }
+            },
+            "offsetY": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:muddy_mangrove_roots"
+                }
+            },
+            "offsetX": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:muddy_mangrove_roots"
+                }
+            },
+            "offsetX": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:muddy_mangrove_roots"
+                }
+            },
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:muddy_mangrove_roots"
+                }
+            },
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetY": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:mud"
+                }
+            },
+            "offsetY": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetX": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": 1,
+            "offsetZ": -1
+        }
+    ]
+}

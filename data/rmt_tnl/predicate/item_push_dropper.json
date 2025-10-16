@@ -1,0 +1,183 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:ochre_froglight"
+                }
+            },
+            "offsetY": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:dropper"
+                }
+            },
+            "offsetY": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone_slab"
+                }
+            },
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone_slab"
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone_slab"
+                }
+            },
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone_slab"
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetX": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetX": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": -1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetY": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetY": -1,
+            "offsetZ": -1
+        }
+    ]
+}

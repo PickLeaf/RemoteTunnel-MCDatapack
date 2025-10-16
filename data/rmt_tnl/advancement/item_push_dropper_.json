@@ -1,0 +1,23 @@
+{
+  "parent": "rmt_tnl:item_push_dropper",
+  "display": {
+    "title": {
+      "translate": "rmt_tnl.advancement.item_push_dropper_.title",
+      "fallback": "Item Push Dropper's Description"
+    },
+    "description": {
+      "translate": "rmt_tnl.advancement.item_push_dropper_.description",
+      "fallback": "Opposite to Item Fetch Hopper, push the Items in the Dropper into the Decorated Pot at the bottom of the Chunk Loader."
+    },
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

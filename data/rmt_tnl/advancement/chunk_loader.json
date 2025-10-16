@@ -1,0 +1,23 @@
+{
+  "parent": "rmt_tnl:root",
+  "display": {
+    "title": {
+      "translate": "rmt_tnl.advancement.chunk_loader.title",
+      "fallback": "Chunk Loader"
+    },
+    "description": {
+      "translate": "rmt_tnl.advancement.chunk_loader.description",
+      "fallback": "Request: 12*Mud, 4*Muddy_Mangrove_Roots, 8*Block_Of_Gold, 1*Redstone_Lamp, 1*Lodstone"
+    },
+    "icon": {
+      "id": "minecraft:lodestone"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

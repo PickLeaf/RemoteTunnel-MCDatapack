@@ -1,0 +1,23 @@
+{
+  "parent": "rmt_tnl:root",
+  "display": {
+    "title": {
+      "translate": "rmt_tnl.advancement.item_fetch_hopper.title",
+      "fallback": "Item Fetch Hopper "
+    },
+    "description": {
+      "translate": "rmt_tnl.advancement.item_fetch_hopper.description",
+      "fallback": "Request: 8*Amethyst_Block, 4*Crying_Obsidian, 3*Decorated_Pot, 4*Mangrove_Trapdoor, 1*Lodestone_Compass, 1*Pearlescent_Froglight"
+    },
+    "icon": {
+      "id": "minecraft:hopper"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
