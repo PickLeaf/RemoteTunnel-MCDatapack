@@ -5,5 +5,3 @@ execute if block ~ ~1 ~ minecraft:redstone_lamp[lit=false] \
 
 execute unless predicate rmt_tnl:chunk_loader run \
     function rmt_tnl:chunk_loader/when_destory
-
-return run forceload query ~ ~

@@ -7,7 +7,7 @@
     },
     "description": {
       "translate": "rmt_tnl.advancement.chunk_loader_.description",
-      "fallback": "When the top Redstone Lamp is lit, the chunk conatining the central block will be force to loaded (via the /forceload command); otherwise, it will be unloaded. Comparator can detect the central block, providing a signal when the chunk is force-loaded, and no signal when it is not."
+      "fallback": "When the top Redstone Lamp is lit, the chunk conatining the central block will be force to loaded (via the /forceload command); otherwise, it will be unloaded."
     },
     "icon": {
       "id": "minecraft:book"

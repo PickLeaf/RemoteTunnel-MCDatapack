@@ -8,7 +8,7 @@
     "rmt_tnl.advancement.chunk_loader.title": "Chunk Loader",
     "rmt_tnl.advancement.chunk_loader.description": "Request: 12*Mud, 4*Muddy_Mangrove_Roots, 8*Block_Of_Gold, 1*Redstone_Lamp, 1*Lodstone",
     "rmt_tnl.advancement.chunk_loader_.title": "Description of Chunk Loader",
-    "rmt_tnl.advancement.chunk_loader_.description": "When the top Redstone Lamp is lit, the chunk conatining the central block will be force to loaded (via the /forceload command); otherwise, it will be unloaded. Comparator can detect the central block, providing a signal when the chunk is force-loaded, and no signal when it is not.",
+    "rmt_tnl.advancement.chunk_loader_.description": "When the top Redstone Lamp is lit, the chunk conatining the central block will be force to loaded (via the /forceload command); otherwise, it will be unloaded.",
     "rmt_tnl.advancement.item_fetch_hopper.title": "Item Fetch Hopper ",
     "rmt_tnl.advancement.item_fetch_hopper.description": "Request: 8*Amethyst_Block, 4*Crying_Obsidian, 3*Decorated_Pot, 4*Mangrove_Trapdoor, 1*Pearlescent_Froglight, 1*Lodestone_Compass(bounding to the bottom of the Chunk Loader)",
     "rmt_tnl.advancement.item_fetch_hopper_.title": "Description of Item Fetch Hopper ",

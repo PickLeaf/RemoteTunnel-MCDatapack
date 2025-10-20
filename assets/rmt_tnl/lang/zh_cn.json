@@ -8,7 +8,7 @@
     "rmt_tnl.advancement.chunk_loader.title": "区块加载器",
     "rmt_tnl.advancement.chunk_loader.description": "需要：12*泥巴，4*沾泥的红树根，8*金块，1*红石灯，1*磁石",
     "rmt_tnl.advancement.chunk_loader_.title": "区块加载器的介绍",
-    "rmt_tnl.advancement.chunk_loader_.description": "当顶部红石灯亮起时将会强加载（通过/forceload命令）所在（取决于中心方块）区块，反之则卸载；比较器可以探测中心方块，所在区块被强加载时有信号，反之则无。",
+    "rmt_tnl.advancement.chunk_loader_.description": "当顶部红石灯亮起时将会强加载（通过/forceload命令）所在（取决于中心方块）区块，反之则卸载。",
     "rmt_tnl.advancement.item_fetch_hopper.title": "物品拉取漏斗",
     "rmt_tnl.advancement.item_fetch_hopper.description": "需要：8*紫水晶块，4*哭泣的黑曜石，3*纹饰陶罐，4*红树木活板门，1*珠光蛙明灯，1*磁石指针（绑定至区块加载器底部的磁石）",
     "rmt_tnl.advancement.item_fetch_hopper_.title": "物品拉取漏斗的介绍",
