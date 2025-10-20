@@ -4,7 +4,7 @@ data modify storage rmt_tnl:print cmd.link \
     "underlined": true,\
     "color": "aqua",\
     "hoverEvent": {"action": "show_text",\
-    "contents": {"text": "https://github.com/PickLeaf/Roost-MCDatapack"}},\
+    "contents": {"text": "https://github.com/PickLeaf/RemoteTunnel-MCDatapack"}},\
     "clickEvent": {"action": "open_url",\
-    "value": "https://github.com/PickLeaf/Roost-MCDatapack"}},\
+    "value": "https://github.com/PickLeaf/RemoteTunnel-MCDatapack"}},\
     {"text": " "}'
