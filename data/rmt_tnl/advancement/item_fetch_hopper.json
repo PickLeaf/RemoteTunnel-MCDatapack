@@ -1,13 +1,10 @@
 {
-  "parent": "rmt_tnl:root",
+  "parent": "rmt_tnl:chunk_loader",
   "display": {
-    "title": {
-      "translate": "rmt_tnl.advancement.item_fetch_hopper.title",
-      "fallback": "Item Fetch Hopper "
-    },
+    "title": "Item Fetch Hopper",
     "description": {
       "translate": "rmt_tnl.advancement.item_fetch_hopper.description",
-      "fallback": "Request: 8*Amethyst_Block, 4*Crying_Obsidian, 3*Decorated_Pot, 4*Mangrove_Trapdoor, 1*Lodestone_Compass, 1*Pearlescent_Froglight"
+      "fallback": "Pull Items from the Decorated Pot on top of the Chunk Loader bound to the Lodestone Compass into the Decorated Pot below the machine. If the chunk containing the bound Chunk Loader is not loaded, it will be force to loaded automatically, but the force loading will not be removed automatically"
     },
     "icon": {
       "id": "minecraft:hopper"

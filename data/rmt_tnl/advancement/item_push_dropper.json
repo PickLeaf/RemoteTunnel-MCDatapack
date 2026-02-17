@@ -1,13 +1,10 @@
 {
-  "parent": "rmt_tnl:root",
+  "parent": "rmt_tnl:item_fetch_hopper",
   "display": {
-    "title": {
-      "translate": "rmt_tnl.advancement.item_push_dropper.title",
-      "fallback": "Item Push Dropper"
-    },
+    "title": "Item Push Dropper",
     "description": {
       "translate": "rmt_tnl.advancement.item_push_dropper.description",
-      "fallback": "Request: 12*Smooth_Stone, 4*Smooth_Stone_Slab, 1*Decorated_Pot, 1*Dropper, 1*Ochre_Froglight, 1*Lodestone_Compass(bounding to the bottom of the Chunk Loader)"
+      "fallback": "Opposite to Item Fetch Hopper, push the Items in the Dropper into the Decorated Pot at the bottom of the Chunk Loader"
     },
     "icon": {
       "id": "minecraft:dropper"

@@ -1,4 +1,5 @@
 $tellraw @a [\
     $(version),\
     $(link),\
-    $(error)]
+    $(error),\
+    $(nutlet)]

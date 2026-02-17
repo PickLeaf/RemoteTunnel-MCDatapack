@@ -1,16 +1,13 @@
 {
-  "parent": "rmt_tnl:root",
+  "parent": "nutlet:spells",
   "display": {
-    "title": {
-      "translate": "rmt_tnl.advancement.chunk_loader.title",
-      "fallback": "Chunk Loader"
-    },
+    "title": "Chunk Loader",
     "description": {
       "translate": "rmt_tnl.advancement.chunk_loader.description",
-      "fallback": "Request: 12*Mud, 4*Muddy_Mangrove_Roots, 8*Block_Of_Gold, 1*Redstone_Lamp, 1*Lodstone"
+      "fallback": "When the top Redstone Lamp is lit, the chunk conatining the central block will be force to loaded (via the /forceload command); otherwise, it will be unloaded"
     },
     "icon": {
-      "id": "minecraft:lodestone"
+      "id": "minecraft:enchanting_table"
     },
     "announce_to_chat": false,
     "show_toast": false

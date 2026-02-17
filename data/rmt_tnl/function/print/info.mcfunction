@@ -5,6 +5,8 @@ execute \
 function rmt_tnl:print/version
 function rmt_tnl:print/link
 function rmt_tnl:print/error
+function rmt_tnl:print/nutlet
+data remove storage rmt_tnl:print nutlet
 function rmt_tnl:print/macro \
     with storage rmt_tnl:print cmd
 data remove storage rmt_tnl:print cmd

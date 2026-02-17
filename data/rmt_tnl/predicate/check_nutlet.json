@@ -1,0 +1,38 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:storage",
+                "storage": "rmt_tnl:print",
+                "path": "nutlet[0]"
+            },
+            "range": {
+                "min": 1
+            }
+        },
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:storage",
+                "storage": "rmt_tnl:print",
+                "path": "nutlet[1]"
+            },
+            "range": {
+                "min": 2
+            }
+        },
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:storage",
+                "storage": "rmt_tnl:print",
+                "path": "nutlet[2]"
+            },
+            "range": {
+                "min": 0
+            }
+        }
+    ]
+}

@@ -1,12 +1,12 @@
 {
 	"pack": {
 		"pack_format": 48,
-		"supported_formats": [34,88],
+		"supported_formats": [34,94],
 		"min_format": 34,
-		"max_format": 88,
+		"max_format": 94,
 		"description": [
 			{
-				"text": "Remote Tunnel V1.0[MC1.21.x]\n"
+				"text": "Remote Tunnel V1.1[MC1.21.x]\n"
 			},
 			{
 				"text": "By 刘拾叶 | PickLeaf",
@@ -23,15 +23,9 @@
 				"directory": "25w02a_p"
 			},
 			{
-				"formats": [64, 9999],
-				"min_format": 64,
-				"max_format": 9999,
-				"directory": "25w04a_p"
-			},
-			{
-				"formats": [48, 88],
+				"formats": [48, 94],
 				"min_format": 48,
-				"max_format": 88,
+				"max_format": 94,
 				"directory": "print_info"
 			}
 		]
