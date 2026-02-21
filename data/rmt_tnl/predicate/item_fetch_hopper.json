@@ -2,181 +2,462 @@
     "condition": "minecraft:all_of",
     "terms": [
         {
-            "condition": "location_check",
+            "condition": "minecraft:any_of",
+            "terms": [
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:furnace",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetX": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetX": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetZ": -1
+                        }
+                    ]
+                },
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetX": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:furnace",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetX": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetZ": -1
+                        }
+                    ]
+                },
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetX": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetX": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:furnace",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetZ": -1
+                        }
+                    ]
+                },
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetX": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetX": -1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:polished_blackstone_button",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetZ": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:furnace",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            },
+                            "offsetY": -1,
+                            "offsetZ": -1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:decorated_pot"
+                    "blocks": "minecraft:deepslate"
                 }
             },
             "offsetY": -1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:pearlescent_froglight"
+                    "blocks": "minecraft:decorated_pot"
                 }
             },
             "offsetY": 1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:amethyst_block"
+                    "blocks": "minecraft:polished_blackstone_stairs",
+                    "state": {
+                        "half": "top"
+                    }
                 }
             },
-            "offsetY": 1,
-            "offsetX": 1
+            "offsetX": 1 
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:amethyst_block"
+                    "blocks": "minecraft:polished_blackstone_stairs",
+                    "state": {
+                        "half": "top"
+                    }
                 }
             },
-            "offsetY": 1,
-            "offsetX": -1
+            "offsetX": -1 
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:amethyst_block"
+                    "blocks": "minecraft:polished_blackstone_stairs",
+                    "state": {
+                        "half": "top"
+                    }
                 }
             },
-            "offsetY": 1,
-            "offsetZ": 1
+            "offsetZ": 1 
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:amethyst_block"
+                    "blocks": "minecraft:polished_blackstone_stairs",
+                    "state": {
+                        "half": "top"
+                    }
                 }
             },
-            "offsetY": 1,
-            "offsetZ": -1
+            "offsetZ": -1 
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:crying_obsidian"
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "top"
+                    }
                 }
             },
-            "offsetY": 1,
             "offsetX": 1,
-            "offsetZ": 1
+            "offsetZ": 1 
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:crying_obsidian"
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "top"
+                    }
                 }
             },
-            "offsetY": 1,
-            "offsetX": -1,
-            "offsetZ": 1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:crying_obsidian"
-                }
-            },
-            "offsetY": 1,
             "offsetX": 1,
-            "offsetZ": -1
+            "offsetZ": -1 
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:crying_obsidian"
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "top"
+                    }
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": 1 
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "top"
+                    }
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": -1 
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": 1 
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": 1,
+            "offsetY": 1,
+            "offsetZ": -1 
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": 1 
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
+                }
+            },
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": -1 
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
                 }
             },
             "offsetY": 1,
-            "offsetX": -1,
-            "offsetZ": -1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:amethyst_block"
-                }
-            },
             "offsetX": 1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:amethyst_block"
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
                 }
             },
+            "offsetY": 1,
             "offsetX": -1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:amethyst_block"
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
                 }
             },
+            "offsetY": 1,
             "offsetZ": 1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:amethyst_block"
+                    "blocks": "minecraft:polished_blackstone_slab",
+                    "state": {
+                        "type": "bottom"
+                    }
                 }
             },
-            "offsetZ": -1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:mangrove_trapdoor"
-                }
-            },
-            "offsetY": -1,
-            "offsetX": 1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:mangrove_trapdoor"
-                }
-            },
-            "offsetY": -1,
-            "offsetX": -1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:mangrove_trapdoor"
-                }
-            },
-            "offsetY": -1,
-            "offsetZ": 1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:mangrove_trapdoor"
-                }
-            },
-            "offsetY": -1,
+            "offsetY": 1,
             "offsetZ": -1
         }
     ]

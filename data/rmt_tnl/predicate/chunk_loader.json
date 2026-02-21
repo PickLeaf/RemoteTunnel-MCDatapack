@@ -192,10 +192,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:hopper",
-                    "state": {
-                        "facing": "down"
-                    }
+                    "blocks": "minecraft:decorated_pot"
                 }
             },
             "offsetY": -1

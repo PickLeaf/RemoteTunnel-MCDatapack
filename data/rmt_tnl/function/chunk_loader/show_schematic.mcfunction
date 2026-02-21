@@ -1,12 +1,13 @@
 execute positioned ~ ~0.5 ~ \
-    run function rmt_tnl:uni/particle_3x3x4 {particle:"minecraft:flame"}
+    run function rmt_tnl:info/particle_3x3x4 {particle:"minecraft:flame"}
 
 data modify storage nutlet:var schematic set value \
     {tick:100, keepData:1b, transformation:{\
         scale:[0.3f, 0.3f, 0.3f], translation:[-0.15f, -0.15f, -0.15f]}}
 
 data modify storage nutlet:var schematic.id set value "minecraft:air"
-function nutlet:-m/schematic/item {hasComponent:"false"}
+execute positioned ~ ~1 ~ \
+    run function nutlet:-m/schematic/item {hasComponent:"false"}
 # mud
 # middle layer
 data modify storage nutlet:var schematic.id set value "minecraft:mud"
@@ -85,15 +86,16 @@ function nutlet:-m/schematic/block {hasProp:"false"}
 data modify storage nutlet:var schematic.id set value "minecraft:lodestone"
 execute positioned ~ ~1 ~ \
     run function nutlet:-m/schematic/block {hasProp:"false"}
-# hopper
-data modify storage nutlet:var schematic.prop.facing set value "down"
-data modify storage nutlet:var schematic.id set value "minecraft:hopper"
-execute positioned ~ ~-1 ~ \
-    run function nutlet:-m/schematic/block {hasProp:"true"}
 # decorated pot, is item display
-data remove storage nutlet:var schematic.transformation.translation
 data modify storage nutlet:var schematic.id set value "minecraft:decorated_pot"
 execute positioned ~ ~2 ~ \
-    run function nutlet:-m/schematic/item {hasComponent:"true"}
+    run function nutlet:-m/schematic/block {hasProp:"false"}
+execute positioned ~ ~-1 ~ \
+    run function nutlet:-m/schematic/block {hasProp:"false"}
+data remove storage nutlet:var schematic.transformation.translation
+execute positioned ~ ~2 ~ \
+    run function nutlet:-m/schematic/item {hasComponent:"false"}
+execute positioned ~ ~-1 ~ \
+    run function nutlet:-m/schematic/item {hasComponent:"false"}
 
 data remove storage nutlet:var schematic

@@ -8,5 +8,7 @@
     "rmt_tnl.advancement.chunk_loader.description": "当顶部红石灯亮起时将会强加载（通过/forceload命令）所在（取决于中心方块）区块，反之则卸载",
     "rmt_tnl.advancement.item_fetch_hopper.description": "把物品从磁石指针绑定的区块加载器的顶部的纹饰陶罐拉取到机器下方的纹饰陶罐里。绑定的区块加载器所在区块未被加载则会被自动强加载，但不会自动去除强加载",
     "rmt_tnl.advancement.item_push_dropper.description": "与物品拉取漏斗相反，将投掷器里的物品推送到区块加载器底部的纹饰陶罐里",
-    "rmt_tnl.info.setup_fail_1": "请击打%s"
+    "rmt_tnl.info.setup_fail_1": "请击打%s",
+    "rmt_tnl.info.fail_2": "%s里需要有%s",
+    "rmt_tnl.info.fail_3": "磁石指针绑定不是一个区块加载器"
 }
