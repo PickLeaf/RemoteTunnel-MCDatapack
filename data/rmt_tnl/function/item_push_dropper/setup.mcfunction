@@ -23,6 +23,8 @@ execute unless items block ^ ^ ^3 container.* \
         data remove storage rmt_tnl:var stop
 execute positioned ^ ^ ^1 \
     run function rmt_tnl:info/set_up_suc {size:"3x3x3"}
+execute positioned ^ ^ ^3 \
+    run function rmt_tnl:info/set_up_suc {size:"1x1"}
 # place command block in world
 function nutlet:-m/facing/block
 execute positioned ^ ^ ^1 \

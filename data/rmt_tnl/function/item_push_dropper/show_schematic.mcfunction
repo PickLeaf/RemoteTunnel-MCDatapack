@@ -1,5 +1,7 @@
 execute positioned ^ ^ ^1 \
     run function rmt_tnl:info/particle_3x3x3 {particle:"minecraft:flame"}
+execute positioned ^ ^ ^3 \
+    run function rmt_tnl:info/particle_1x1 {particle:"minecraft:flame"}
 
 data modify storage nutlet:var schematic set value \
     {tick:100, keepData:1b, transformation:{\
@@ -88,6 +90,7 @@ execute positioned ^ ^ ^3 \
 data remove storage nutlet:var schematic.transformation.translation
 execute if data storage nutlet:var schematic.uuid \
     positioned ^ ^ ^3 \
+    rotated ~ 0 \
     run function nutlet:-m/schematic/item {hasComponent:"false"}
 # display compass that should in decorated pot
 data modify storage nutlet:var schematic.transformation set value \
@@ -96,7 +99,9 @@ data modify storage nutlet:var schematic.id set value "minecraft:compass"
 data modify storage nutlet:var schematic.component set value \
     {"minecraft:lodestone_tracker":{}}
 execute if data storage nutlet:var schematic.uuid \
-    positioned ^ ^ ^3.4 \
+    positioned ^ ^ ^3 \
+    positioned ~ ~0.6 ~ \
+    rotated ~ -90 \
     run function nutlet:-m/schematic/item {hasComponent:"true"}
 # display tip text
 execute positioned ^ ^ ^1 \
