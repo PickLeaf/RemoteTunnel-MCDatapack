@@ -10,5 +10,6 @@
     "rmt_tnl.advancement.item_push_dropper.description": "Opposite to Item Fetch Hopper, push the Items in the Dropper into the Decorated Pot at the bottom of the Chunk Loader",
     "rmt_tnl.info.setup_fail_1": "Hit %s please",
     "rmt_tnl.info.fail_2": "The %s need contain %s",
-    "rmt_tnl.info.fail_3": "Lodestone Compass binding is not a Chunk Loader"
+    "rmt_tnl.info.fail_3": "Lodestone Compass binding is not a Chunk Loader",
+    "rmt_tnl.info.fail_4": "The %s should not face downwards"
 }

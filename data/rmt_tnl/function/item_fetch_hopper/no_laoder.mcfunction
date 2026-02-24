@@ -7,7 +7,7 @@ data modify storage nutlet:var schematic set value \
     {tick: 198s,transformation: {\
         scale: [0.3f, 0.3f, 0.3f]},\
     mergeData:{\
-        background:-1610612736, shadow:1b, \
+        background:0, shadow:1b, \
         width:3f, height:1f, line_width:100}}
 execute at @s \
     run data modify storage nutlet:var schematic.dimension \

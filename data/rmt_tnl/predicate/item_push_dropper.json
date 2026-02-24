@@ -2,182 +2,697 @@
     "condition": "minecraft:all_of",
     "terms": [
         {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:ochre_froglight"
+            "condition": "minecraft:any_of",
+            "terms": [
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:redstone_lamp"
+                                }
+                            },
+                            "offsetY": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:clay"
+                                }
+                            },
+                            "offsetY": -1
+                        },
+                        {
+                            "condition": "minecraft:any_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:all_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:crafter",
+                                                    "state": {
+                                                        "orientation": "west_up"
+                                                    }
+                                                }
+                                            },
+                                            "offsetX": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:amethyst_block"
+                                                }
+                                            },
+                                            "offsetX": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:decorated_pot"
+                                                }
+                                            },
+                                            "offsetX": -2
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": -1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "condition": "minecraft:all_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:crafter",
+                                                    "state": {
+                                                        "orientation": "east_up"
+                                                    }
+                                                }
+                                            },
+                                            "offsetX": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:amethyst_block"
+                                                }
+                                            },
+                                            "offsetX": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:decorated_pot"
+                                                }
+                                            },
+                                            "offsetX": 2
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": -1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "condition": "minecraft:all_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:crafter",
+                                                    "state": {
+                                                        "orientation": "north_up"
+                                                    }
+                                                }
+                                            },
+                                            "offsetZ": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:amethyst_block"
+                                                }
+                                            },
+                                            "offsetZ": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:decorated_pot"
+                                                }
+                                            },
+                                            "offsetZ": -2
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": -1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "condition": "minecraft:all_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:crafter",
+                                                    "state": {
+                                                        "orientation": "south_up"
+                                                    }
+                                                }
+                                            },
+                                            "offsetZ": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:amethyst_block"
+                                                }
+                                            },
+                                            "offsetZ": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:decorated_pot"
+                                                }
+                                            },
+                                            "offsetZ": 2
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": -1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:amethyst_block"
+                                }
+                            },
+                            "offsetY": 1
+                        },
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:decorated_pot"
+                                }
+                            },
+                            "offsetY": 2
+                        },
+                        {
+                            "condition": "minecraft:any_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:all_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:redstone_lamp"
+                                                }
+                                            },
+                                            "offsetX": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:crafter",
+                                                    "state": {
+                                                        "orientation": "up_west"
+                                                    }
+                                                }
+                                            },
+                                            "offsetY": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": -1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "condition": "minecraft:all_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:redstone_lamp"
+                                                }
+                                            },
+                                            "offsetX": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:crafter",
+                                                    "state": {
+                                                        "orientation": "up_east"
+                                                    }
+                                                }
+                                            },
+                                            "offsetY": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": -1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "condition": "minecraft:all_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:redstone_lamp"
+                                                }
+                                            },
+                                            "offsetZ": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:crafter",
+                                                    "state": {
+                                                        "orientation": "up_north"
+                                                    }
+                                                }
+                                            },
+                                            "offsetY": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": -1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "condition": "minecraft:all_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:redstone_lamp"
+                                                }
+                                            },
+                                            "offsetZ": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:crafter",
+                                                    "state": {
+                                                        "orientation": "up_south"
+                                                    }
+                                                }
+                                            },
+                                            "offsetY": -1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetZ": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": 1
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "block": {
+                                                    "blocks": "minecraft:clay"
+                                                }
+                                            },
+                                            "offsetX": -1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
-            },
-            "offsetY": -1
+            ]
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:dropper"
+                    "blocks": "minecraft:smooth_stone"
                 }
             },
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetX": 1,
             "offsetY": 1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:smooth_stone_slab"
-                }
-            },
-            "offsetX": 1,
-            "offsetZ": 1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:smooth_stone_slab"
+                    "blocks": "minecraft:smooth_stone"
                 }
             },
             "offsetX": -1,
-            "offsetZ": 1
+            "offsetY": 1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:smooth_stone_slab"
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetZ": 1,
+            "offsetY": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetZ": -1,
+            "offsetY": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
                 }
             },
             "offsetX": 1,
-            "offsetZ": -1
+            "offsetZ": 1,
+            "offsetY": 1
         },
         {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:smooth_stone_slab"
-                }
-            },
-            "offsetX": -1,
-            "offsetZ": -1
-        },
-        {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
                     "blocks": "minecraft:smooth_stone"
                 }
             },
-            "offsetX": 1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:smooth_stone"
-                }
-            },
-            "offsetX": -1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:smooth_stone"
-                }
-            },
-            "offsetZ": 1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:smooth_stone"
-                }
-            },
-            "offsetZ": -1
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "block": {
-                    "blocks": "minecraft:smooth_stone"
-                }
-            },
-            "offsetY": -1,
             "offsetX": 1,
-            "offsetZ": 1
+            "offsetZ": -1,
+            "offsetY": 1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
                     "blocks": "minecraft:smooth_stone"
                 }
             },
-            "offsetY": -1,
             "offsetX": -1,
-            "offsetZ": 1
+            "offsetZ": 1,
+            "offsetY": 1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
                     "blocks": "minecraft:smooth_stone"
                 }
             },
-            "offsetY": -1,
+            "offsetX": -1,
+            "offsetZ": -1,
+            "offsetY": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
             "offsetX": 1,
-            "offsetZ": -1
+            "offsetY": -1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
                     "blocks": "minecraft:smooth_stone"
                 }
             },
-            "offsetY": -1,
             "offsetX": -1,
-            "offsetZ": -1
+            "offsetY": -1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
                     "blocks": "minecraft:smooth_stone"
                 }
             },
-            "offsetY": -1,
-            "offsetX": 1
+            "offsetZ": 1,
+            "offsetY": -1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
                     "blocks": "minecraft:smooth_stone"
                 }
             },
-            "offsetY": -1,
-            "offsetX": -1
+            "offsetZ": -1,
+            "offsetY": -1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
                     "blocks": "minecraft:smooth_stone"
                 }
             },
-            "offsetY": -1,
-            "offsetZ": 1
+            "offsetX": 1,
+            "offsetZ": 1,
+            "offsetY": -1
         },
         {
-            "condition": "location_check",
+            "condition": "minecraft:location_check",
             "predicate": {
                 "block": {
                     "blocks": "minecraft:smooth_stone"
                 }
             },
-            "offsetY": -1,
-            "offsetZ": -1
+            "offsetX": 1,
+            "offsetZ": -1,
+            "offsetY": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": 1,
+            "offsetY": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:smooth_stone"
+                }
+            },
+            "offsetX": -1,
+            "offsetZ": -1,
+            "offsetY": -1
         }
     ]
 }

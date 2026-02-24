@@ -10,5 +10,6 @@
     "rmt_tnl.advancement.item_push_dropper.description": "与物品拉取漏斗相反，将投掷器里的物品推送到区块加载器底部的纹饰陶罐里",
     "rmt_tnl.info.setup_fail_1": "请击打%s",
     "rmt_tnl.info.fail_2": "%s里需要有%s",
-    "rmt_tnl.info.fail_3": "磁石指针绑定不是一个区块加载器"
+    "rmt_tnl.info.fail_3": "磁石指针绑定不是一个区块加载器",
+    "rmt_tnl.info.fail_4": "%s不应朝下"
 }
